@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset= "utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style/style.css">
+    <title> My Web-App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header_logo">Визитная карточка</h1>
+            <div class="header_main menu">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Меню</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#info">О себе</a>
+                      <a href="#portfolio">Портфолио</a>
+                    </div>
+                  </div>
+                </button>
+                
+                
+            </div>
+        </div>
+        <div class="info" id="info">
+            <h2 class="info_title">
+                О себе
+            </h2>
+            <img src="photo/6.jpg" width="300" height="300">
+            
+            <p class="info_fullname">Козырев Матвей Андреевич</p>
+            <p class="info_age">Возраст:18 лет</p>
+            <p class="info_study">Место обучения:МТУСИ</p>
+            <p class="info_telegram">Телеграмм:</p>
+            <a href="https://t.me/garfieldmk" class="info_nickname">@garfieldmk</a>
+            <p class="info_git">Гитхаб:</p>
+            <a href="https://github.com/3garfield5" class="info_nickname">GitHub</a>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <h2 class="portik">Портфолио</h2>
+            <div class="drpdown">
+                <button onclick="myFunc()" class="drbtn">Открыть портфолио</button>
+                <div id="myDropdn" class="drpdown-content">
+                  <a href="photo/2.png" target="_blank">Лабораторная работа №2</a>
+                  <a href="photo/3.png" target="_blank">Лабораторная работа №2</a>
+                </div>
+              </div>
+            </button>
+            
+            </div>  
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
